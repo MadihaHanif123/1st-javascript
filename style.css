@@ -1,0 +1,28 @@
+body{
+    background-color: black;}
+
+    .container{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    height: 300px;
+    
+
+}
+button{
+    height: 30px;
+    width: 100px;
+   
+}
+@media (max-width: 480px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+
+    }
+    
+}
+  
+    
+    
